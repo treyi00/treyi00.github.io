@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tredayne B. Cabanlit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
+  <body>
+    <!--navbar-->
+    <section id="navbar">
+      <div class="container">
+        <header class="d-flex justify-content-center pt-3 fixed-top">
+          <a
+            class="btn btn-light px-1 mx-1 col-xxl-1 col-lg-2 col-md-2 col-sm-2 col-2"
+            type="button"
+            href="./index.html"
+          >
+            Home
+          </a>
+          <a
+            class="btn btn-light px-1 mx-1 col-xxl-1 col-lg-2 col-md-2 col-sm-2 col-2"
+            type="button"
+            href="./about_me.html"
+          >
+            About Me
+          </a>
+          <a
+            class="btn btn-light px-1 mx-1 col-xxl-1 col-lg-2 col-md-2 col-sm-2 col-2"
+            type="button"
+            href="#"
+          >
+            Projects
+          </a>
+          <a
+            class="btn btn-light px-1 mx-1 col-xxl-1 col-lg-2 col-md-2 col-sm-2 col-2"
+            type="button"
+          >
+            Hobbies
+          </a>
+          <a
+            class="btn btn-light px-1 mx-1 col-xxl-1 col-lg-2 col-md-2 col-sm-2 col-2"
+            type="button"
+          >
+            Contact Me
+          </a>
+        </header>
+      </div>
+    </section>
+    <div class="b-divider"></div>
+    <div class="mt-5 px-5 py-4 gradient-background">
+      <div class="container">
+        <h1>What's he done?</h1>
+      </div>
+    </div>
+    <!--hum-aligner-->
+    <section id="hum-aligner">
+      <div class="text-left mt-5 py-3 bg-body-tertiary">
+        <div class="container px-5 p-0">
+          <h2>Hum Aligner</h2>
+          <p class="lead">
+            The hum aligner is a Python script I made that aligns hum audio to
+            its equivalent speech audio. The purpose of this is to generate
+            audio samples with the highest difficulty of information masking.
+          </p>
+          <p class="lead">
+            The algorithm works by extracting the non-silent intervals of the
+            hum audio and aligning them to the word(s) they correspond to; many
+            words can be mapped to the same hum interval. The hum interval is
+            then resized to match the length of the word(s).
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="b-divider"></div>
+    <!--formant-->
+    <section id="formant">
+      <div class="text-left mt-5 py-3 bg-body-tertiary">
+        <div class="container px-5 p-0">
+          <h2>Tongue Estimator</h2>
+          <p class="lead">
+            The tongue estimator is a Flutter application that uses audio
+            recorded from your phone to estimate the shape of your tongue using
+            the resonances produced. It makes use of a formant extractor that
+            was written from scratch. I learned about how linear predictive
+            coding worked and then coded it to use in my formant extractor.
+          </p>
+          <p class="lead">
+            The drawing of the tongue was not the priority of this project, so
+            forgive its simplistic look.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="b-divider"></div>
+    <!--glottal-stop-->
+    <section id="glottal-stop">
+      <div class="text-left mt-5 py-3 bg-body-tertiary">
+        <div class="container px-5 p-0">
+          <h2>Glottal Stop Coarticulation Research</h2>
+          <p class="lead">
+            I did a research on the coarticulation dampening properties of the
+            glottal stop. I used acoustic data to show that although some people
+            say that the glottal stop doesn't influence coarticulation, it is
+            actually able to lessen the effects of coarticulation in certain
+            conditions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="b-divider"></div>
+    <!--database-->
+    <section id="database">
+      <div class="text-left mt-5 py-3 bg-body-tertiary">
+        <div class="container px-5 p-0">
+          <h2>Database</h2>
+          <p class="lead">
+            I built a simple website that connects to an SQL database hosted on
+            the Google Cloud Platform. It's able to do CRUD and advanced
+            queries.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="b-divider"></div>
+  </body>
+</html>

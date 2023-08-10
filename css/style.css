@@ -30,3 +30,12 @@
   font-family: Times, serif;
   font-size: larger;
 }
+
+.blur {
+  filter: blur(5px);
+}
+
+.b-divider {
+  width: 100%;
+  height: 2rem;
+}
